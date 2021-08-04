@@ -85,8 +85,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Libs\opencv452_x64\include;../include;./;../include/gco;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Libs\opencv452_x64\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>../include/opencv452_x64/include;../include;./;../include/gco;$(IncludePath)</IncludePath>
+    <LibraryPath>..\include\opencv452_x64\x64vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
