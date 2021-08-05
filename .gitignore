@@ -19,9 +19,7 @@ mono_crash.*
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
 [Rr]eleases/
-x64/
 x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
@@ -391,3 +389,7 @@ FodyWeavers.xsd
 *.png
 *.zip
 *.jpg
+
+*.exe
+
+GraphcutTest/x64/Release/GraphcutTest.exe.recipe
